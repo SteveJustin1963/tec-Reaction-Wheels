@@ -6,3 +6,5 @@
 
 https://en.wikipedia.org/wiki/Reaction_wheel
 
+https://www.rocketlabusa.com/satellite-components/reaction-wheels/
+
