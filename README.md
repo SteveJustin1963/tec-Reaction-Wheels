@@ -7,6 +7,10 @@
 ![image](https://user-images.githubusercontent.com/58069246/170595656-5fc0b312-a734-4ece-9c81-59aec13cf9d2.png)
 ![image](https://user-images.githubusercontent.com/58069246/170595833-137981ba-52f6-4f6c-990e-5d49c86dc1f4.png)
 ![image](https://user-images.githubusercontent.com/58069246/170595890-2e0fe9ed-43e9-4d12-8462-241dd8f7c12c.png)
+![image](https://user-images.githubusercontent.com/58069246/170596254-fb66314b-e210-4c3b-9578-e83259d80c93.png)
+![image](https://user-images.githubusercontent.com/58069246/170596357-586f44c4-5c8d-4dfb-bc32-bec1cae0e994.png)
+![image](https://user-images.githubusercontent.com/58069246/170596517-d945ac69-c83b-4813-ae62-ad7fd4e97d31.png)
+![image](https://user-images.githubusercontent.com/58069246/170596848-299f7943-9fa7-47be-af87-20fffc65f30e.png)
 
 
 
@@ -14,4 +18,5 @@
 - https://en.wikipedia.org/wiki/Reaction_wheel
 - https://www.rocketlabusa.com/satellite-components/reaction-wheels/
 - https://charleslabs.fr/en/project-Reaction+Wheel+Attitude+Control
+- https://hackaday.com/2022/04/27/building-reaction-wheels-with-python-and-lego/
 - 
