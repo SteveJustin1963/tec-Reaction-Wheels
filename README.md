@@ -22,4 +22,4 @@
 - https://charleslabs.fr/en/project-Reaction+Wheel+Attitude+Control
 - https://hackaday.com/2022/04/27/building-reaction-wheels-with-python-and-lego/
 - https://www.youtube.com/watch?v=woCdjbsjbPg
-- 
+- tec-self balancing robot
