@@ -1,5 +1,10 @@
 # tec-Reaction-Wheels
+
 3 axis reaction wheel experiments
+
+see also https://github.com/SteveJustin1963/tec-BALO
+
+
 
 ![image](https://user-images.githubusercontent.com/58069246/170595550-34e0d06a-9825-4c63-9120-dbe1b793ddda.png)
 ![image](https://user-images.githubusercontent.com/58069246/170595589-6a0c4cac-e6c4-41d4-8f46-9cd2d2f45820.png)
@@ -22,4 +27,4 @@
 - https://charleslabs.fr/en/project-Reaction+Wheel+Attitude+Control
 - https://hackaday.com/2022/04/27/building-reaction-wheels-with-python-and-lego/
 - https://www.youtube.com/watch?v=woCdjbsjbPg
-- tec-self balancing robot
+- 
