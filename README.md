@@ -1,6 +1,6 @@
 # tec-Reaction-Wheels
 
-Reaction wheels are a type of flywheel used primarily by spacecraft for three-axis attitude control, which does not require rockets or external applicators of torque. They provide a high pointing accuracy, and are particularly useful when the spacecraft must be rotated by very small amounts, such as keeping a telescope pointed at a star.
+Reaction wheels are a type of flywheel used primarily by spacecraft for three-axis attitude control, which does not require rockets or external applicators of torque. They provide a high pointing accuracy, and are particularly useful when the spacecraft must be rotated by very small amounts, such as keeping a telescope pointed at a star. 
 
 
 3 axis reaction wheel experiments
@@ -24,6 +24,17 @@ see also https://github.com/SteveJustin1963/tec-BALO
 
 ### Iterate
 apply reaction wheels to tec-scope
+
+
+There are a few ways to do this: 
+
+1. Use a computer-controlled mount that has reaction wheels built in.
+
+2. Use a separate set of reaction wheels mounted on the telescope itself.
+
+3. Use a separate set of reaction wheels mounted on a platform that the telescope is sitting on.
+
+
 
 
 ### Ref
