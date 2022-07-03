@@ -38,21 +38,19 @@ There are a few ways to do this:
 ## c code for 2 axis  reaction wheels, to point to a fixed location x,y
 some basic code snippets that could be used in a two-axis reaction wheel system are provided below.
 
-Assuming that the reaction wheels are already mounted on the spacecraft, the first step would be to initialize them. This can be done by sending a signal to each wheel to start spinning in the desired direction. For example, to spin the wheels in the positive x and y directions, the following code could be used:
+Assuming that the reaction wheels are already mounted, the first step would be to initialize them. This can be done by sending a signal to each wheel to start spinning in the desired direction. For example, to spin the wheels in the positive x and y directions, the following code could be used:
 
 wheel1_spin(POSITIVE_X);
 
 wheel2_spin(POSITIVE_Y);
 
-Next, the wheels would need to be constantly monitored to make sure that they are pointing in the correct direction. This can be done by periodically checking the orientation of the spacecraft and comparing it to the desired orientation. If the spacecraft is not pointing in the correct direction, the wheels would need to be adjusted accordingly. For example, if the spacecraft is pointing in the negative x direction, the following code could be used to adjust the wheels:
+Next, the wheels would need to be constantly monitored to make sure that they are pointing in the correct direction. This can be done by periodically checking the orientation of the spacecraft and comparing it to the desired orientation. If its not pointing in the correct direction, the wheels would need to be adjusted accordingly. For example, if its pointing in the negative x direction, the following code could be used to adjust the wheels:
 
 wheel1_spin(NEGATIVE_X);
 
 wheel2_stop();
 
- 
-
-Finally, once the spacecraft is pointing in the correct direction, the reaction wheels can be turned off. This can be done by sending a signal to each wheel to stop spinning. For example, the following code could be used to stop the wheels:
+Finally, once its pointing in the correct direction, the reaction wheels can be turned off. This can be done by sending a signal to each wheel to stop spinning. For example, the following code could be used to stop the wheels:
 
 wheel1_stop();
 
