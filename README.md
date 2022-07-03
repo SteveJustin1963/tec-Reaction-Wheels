@@ -35,7 +35,7 @@ There are a few ways to do this:
 3. Use a separate set of reaction wheels mounted on a platform that the telescope is sitting on.
 
 
-## c code for 2 axis  reaction wheels, to point to a fixed location x,y
+### code for 2 axis  reaction wheels, to point to a fixed location x,y
 some basic code snippets that could be used in a two-axis reaction wheel system are provided below.
 
 Assuming that the reaction wheels are already mounted, the first step would be to initialize them. This can be done by sending a signal to each wheel to start spinning in the desired direction. For example, to spin the wheels in the positive x and y directions, the following code could be used:
