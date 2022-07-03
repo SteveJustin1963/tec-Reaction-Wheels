@@ -4,8 +4,7 @@
 Reaction wheels are a type of flywheel used primarily by spacecraft for three-axis attitude control, which does not require rockets or external applicators of torque. They provide a high pointing accuracy, and are particularly useful when the spacecraft must be rotated by very small amounts, such as keeping a telescope pointed at a star. 
 
 ### 2 axis
-apply reaction wheels to tec-scope
-
+apply reaction wheels to a land based telescope
 
 There are a few ways to do this: 
 
@@ -31,11 +30,10 @@ wheel1_spin(NEGATIVE_X);
 
 wheel2_stop();
 
-Finally, once its pointing in the correct direction, the reaction wheels can be turned off. This can be done by sending a signal to each wheel to stop spinning. For example, the following code could be used to stop the wheels:
+Finally, once its pointing in the correct direction, the reaction wheels can be turned off or set to a set speed. This can be done by sending a signal to each wheel to stop spinning. For example, the following code could be used to stop the wheels:
 
-wheel1_stop();
-
-wheel2_stop();
+wheel1_stop();    or wheel1_standby_speed();
+wheel2_stop();    or wheel2_standby_speed();
 ; end
 
 
