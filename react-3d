@@ -1,0 +1,40 @@
+from  https://charleslabs.fr/en/project-Reaction+Wheel+Attitude+Control
+
+write software to do this task
+
+
+
+1. Read the current attitude from the gyroscope and accelerometer.
+
+2. Calculate the desired reaction wheel angular velocity from the current attitude and the desired attitude.
+
+3. Apply a control law to the reaction wheels to achieve the desired angular velocity.
+
+write c code to do this
+
+
+
+1. Read the current attitude from the gyroscope and accelerometer.
+
+float gyro_x, gyro_y, gyro_z;
+float accel_x, accel_y, accel_z;
+
+read_gyro(&gyro_x, &gyro_y, &gyro_z);
+read_accel(&accel_x, &accel_y, &accel_z);
+
+2. Calculate the desired reaction wheel angular velocity from the current attitude and the desired attitude.
+
+float desired_angular_velocity_x = (desired_attitude_x - current_attitude_x) / reaction_wheel_time_constant;
+float desired_angular_velocity_y = (desired_attitude_y - current_attitude_y) / reaction_wheel_time_constant;
+float desired_angular_velocity_z = (desired_attitude_z - current_attitude_z) / reaction_wheel_time_constant;
+
+3. Apply a control law to the reaction wheels to achieve the desired angular velocity.
+
+float reaction_wheel_1_torque = desired_angular_velocity_x / reaction_wheel_inertia;
+float reaction_wheel_2_torque = desired_angular_velocity_y / reaction_wheel_inertia;
+float reaction_wheel_3_torque = desired_angular_velocity_z / reaction_wheel_inertia;
+
+apply_torque_to_reaction_wheel(1, reaction_wheel_1_torque);
+apply_torque_to_reaction_wheel(2, reaction_wheel_2_torque);
+apply_torque_to_reaction_wheel(3, reaction_wheel_3_torque);
+
